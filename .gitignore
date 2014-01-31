@@ -1,3 +1,7 @@
 # Ignore Force.com IDE files
 salesforce.schema
 .settings
+
+# Ignore vim files
+*.swp
+*~
