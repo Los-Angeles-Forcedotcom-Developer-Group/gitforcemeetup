@@ -1,0 +1,3 @@
+# Ignore Force.com IDE files
+salesforce.schema
+.settings

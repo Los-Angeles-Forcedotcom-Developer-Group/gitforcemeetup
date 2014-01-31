@@ -1,0 +1,16 @@
+<apex:page >
+  <apex:tabPanel switchType="client" selectedTab="GettingStarted" id="tpMain">
+    <apex:tab label="Getting Started" name="GettingStarted" id="tabGS">
+      <apex:pageBlock title="Getting Started with Git and Force.com">
+      </apex:pageBlock>
+    </apex:tab>
+    <apex:tab label="Eclipse" name="Eclipse" id="tabEclipse">
+      <apex:pageBlock title="Git and the Eclipse Force.com IDE">
+      </apex:pageBlock>
+    </apex:tab>
+    <apex:tab label="GitHub" name="GitHub" id="tabGitHub">
+      <apex:pageBlock title="GitHub and Force.com">
+      </apex:pageBlock>
+    </apex:tab>
+  </apex:tabPanel>
+</apex:page>

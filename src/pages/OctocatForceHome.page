@@ -1,0 +1,20 @@
+<apex:page controller="OctocatForceHomeController" extensions="GitHub">
+  <apex:pageMessages ></apex:pageMessages>
+  <apex:form >
+    <apex:pageBlock >
+      <apex:pageBlockButtons location="bottom">
+        <apex:commandButton value="Login" action="{!login}"/>
+      </apex:pageBlockButtons>
+      <apex:pageBlockSection >
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Username" />
+          <apex:inputText value="{!username}"/>
+        </apex:pageBlockSectionItem>
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Pasword" />
+          <apex:inputText value="{!password}"/>
+        </apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>
