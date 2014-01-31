@@ -12,5 +12,9 @@
       <apex:pageBlock title="GitHub and Force.com">
       </apex:pageBlock>
     </apex:tab>
+    <apex:tab label="Resources" name="Resources" id="tabResources">
+      <apex:pageBlock title="Resources And Links">
+      </apex:pageBlock>
+    </apex:tab>
   </apex:tabPanel>
 </apex:page>
